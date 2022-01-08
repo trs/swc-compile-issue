@@ -1,0 +1,10 @@
+{
+  "name": "swc-compile-issue",
+  "scripts": {
+    "build": "swc ./src/index.ts -d dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.127"
+  }
+}
